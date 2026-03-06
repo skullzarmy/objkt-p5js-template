@@ -67,21 +67,87 @@ A `windowResized()` handler is included so the canvas always fills the viewer's 
 
 ## Minting on objkt.com
 
-1. Select all project files and compress them into a **ZIP** archive.
-   The ZIP must contain `index.html` at the **top level** (not inside a sub-folder).
+### Step 1 — Create your ZIP file
 
-   **macOS / Linux:**
-   ```sh
-   zip -r my-artwork.zip index.html sketch.js style.css js/
-   ```
+You need to compress the project folder into a single **ZIP** file to upload to objkt.  
+Choose the instructions for your operating system below.
 
-   **Windows (PowerShell):**
-   ```powershell
-   Compress-Archive -Path index.html, sketch.js, style.css, js -DestinationPath my-artwork.zip
-   ```
+> ⚠️ **Critical rule:** `index.html` must be at the **top level** of the ZIP — not inside a sub-folder.  
+> If you zip the whole folder _as a folder_, objkt won't find `index.html` and the token will not work.  
+> The steps below show you exactly how to avoid this.
 
-2. Go to [objkt.com](https://objkt.com) → **Create** → **Interactive token (ZIP)**.
-3. Upload `my-artwork.zip`, fill in the token details, and mint.
+---
+
+#### 🪟 Windows — using File Explorer (no software needed)
+
+1. **Open the project folder** in File Explorer (the folder that contains `index.html`).
+2. **Select all four items** inside the folder:
+   - `index.html`
+   - `sketch.js`
+   - `style.css`
+   - `js` _(this is a folder)_
+
+   You can select them all at once by pressing **Ctrl + A**.
+
+3. **Right-click** on any of the selected items.
+4. In the menu that appears, choose **"Compress to ZIP file"** (Windows 11)  
+   — or — **"Send to" → "Compressed (zipped) folder"** (Windows 10).
+5. Windows will create a new file called something like `index.zip` or `Compressed.zip` right inside the folder.
+6. **Rename it** to something meaningful, e.g. `my-artwork.zip`:
+   - Click once on the new ZIP file to select it.
+   - Press **F2** (or right-click → **Rename**).
+   - Type `my-artwork.zip` and press **Enter**.
+
+✅ Done! Your ZIP is ready to upload.
+
+---
+
+#### 🍎 macOS — using Finder (no software needed)
+
+1. **Open the project folder** in Finder (the folder that contains `index.html`).
+2. **Select all four items** inside the folder:
+   - `index.html`
+   - `sketch.js`
+   - `style.css`
+   - `js` _(this is a folder)_
+
+   You can select them all at once by pressing **⌘ Command + A**.
+
+3. **Right-click** (or Control-click) on any of the selected items.
+4. In the menu that appears, choose **"Compress 4 Items"**.
+5. macOS will create a file called `Archive.zip` in the same folder.
+6. **Rename it** to something meaningful, e.g. `my-artwork.zip`:
+   - Click once on `Archive.zip` to select it, then press **Return**.
+   - Type `my-artwork.zip` and press **Return** again.
+
+✅ Done! Your ZIP is ready to upload.
+
+---
+
+#### 💻 Command line (advanced — optional)
+
+If you are comfortable with a terminal, you can zip the files in one command instead.
+
+**macOS / Linux:**
+```sh
+zip -r my-artwork.zip index.html sketch.js style.css js/
+```
+
+**Windows (PowerShell):**
+```powershell
+Compress-Archive -Path index.html, sketch.js, style.css, js -DestinationPath my-artwork.zip
+```
+
+---
+
+### Step 2 — Upload and mint
+
+1. Go to [objkt.com](https://objkt.com) and sign in to your wallet.
+2. Click **Create** in the top navigation bar.
+3. Select **Interactive token (ZIP)**.
+4. Click the upload area and select your `my-artwork.zip` file.
+5. Fill in the token name, description, edition count, royalties, and any other details.
+6. Click **Mint** and confirm the transaction in your wallet.
 
 ---
 
