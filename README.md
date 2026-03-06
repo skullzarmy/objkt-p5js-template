@@ -14,7 +14,7 @@ A clean, lightweight boilerplate for creating and minting [p5.js](https://p5js.o
 ├── sketch.js       ← 👉 YOUR ARTWORK GOES HERE
 ├── style.css       ← base reset styles (edit as needed)
 └── js/
-    └── p5.min.js   ← p5.js v1.11.3 (bundled, no CDN)
+    └── p5.min.js   ← p5.js v2.2.2 (bundled, no CDN)
 ```
 
 ---
@@ -175,7 +175,7 @@ Compress-Archive -Path index.html, sketch.js, style.css, js -DestinationPath my-
 
 ## Updating p5.js
 
-The bundled file is `js/p5.min.js` (p5.js v1.11.3). To upgrade:
+The bundled file is `js/p5.min.js` (p5.js v2.2.2). To upgrade:
 
 1. Download the latest `p5.min.js` from the [p5.js releases page](https://github.com/processing/p5.js/releases).
 2. Replace `js/p5.min.js` with the new file.
