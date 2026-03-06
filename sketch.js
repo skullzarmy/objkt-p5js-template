@@ -2,6 +2,11 @@
 //  objkt.com  ·  p5.js Boilerplate Template
 //  https://github.com/skullzarmy/objkt-p5js-template
 //
+//  Created by skllzrmy.tez
+//  Released under the Unlicense — public domain, no restrictions.
+//  If you find this useful, donations appreciated:
+//    tz1Qi77tcJn9foeHHP1QHj6UX1m1vLVLMbuY  or  skllzrmy.tez
+//
 //  HOW TO USE
 //  1. Put your artwork logic inside setup() and draw() below.
 //  2. Add any helper functions or classes after draw().

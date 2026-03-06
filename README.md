@@ -185,4 +185,13 @@ The bundled file is `js/p5.min.js` (p5.js v1.11.3). To upgrade:
 
 ## License
 
-[MIT](LICENSE)
+[Unlicense](LICENSE) — This is free and unencumbered software released into the public domain. Your artwork is unencumbered by additional licenses.
+
+---
+
+## Credits
+
+Created by [skllzrmy.tez](https://objkt.com/profile/skllzrmy.tez)
+
+If you find this template useful, donations are appreciated:  
+**`tz1Qi77tcJn9foeHHP1QHj6UX1m1vLVLMbuY`** or **`skllzrmy.tez`**
