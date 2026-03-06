@@ -140,14 +140,36 @@ Compress-Archive -Path index.html, sketch.js, style.css, js -DestinationPath my-
 
 ---
 
-### Step 2 — Upload and mint
+### Step 2 — Upload and mint on objkt.com
 
-1. Go to [objkt.com](https://objkt.com) and sign in to your wallet.
-2. Click **Create** in the top navigation bar.
-3. Select **Interactive token (ZIP)**.
-4. Click the upload area and select your `my-artwork.zip` file.
-5. Fill in the token name, description, edition count, royalties, and any other details.
-6. Click **Mint** and confirm the transaction in your wallet.
+1. **Go to [objkt.com](https://objkt.com)** and make sure you are signed in to your Tezos wallet (e.g. Temple, Kukai, or any other supported wallet).
+
+2. **Click "Create"** in the top navigation bar, then select **"Mint Artwork"** from the dropdown.
+
+3. **Upload your ZIP as the artifact:**
+   - You will see an upload area labelled **"Artifact"** (or "Upload file").
+   - Click it and choose your `my-artwork.zip` file.
+   - Wait for the upload to finish — a preview of your interactive piece should appear once it processes.
+
+4. **Add a cover image:**
+   - Below the artifact upload you will find a **"Thumbnail / Cover image"** upload area.
+   - This is the still image that represents your token on the marketplace (people see this before they click to view the interactive piece).
+   - Upload a PNG or JPG screenshot or other representative image of your artwork.
+   - Recommended size: **1000 × 1000 px** or larger, square format.
+
+5. **Fill in the token details:**
+   | Field | What to enter |
+   |---|---|
+   | **Name** | The title of your artwork |
+   | **Description** | A short paragraph about the piece — what it is, what inspired it, how it works |
+   | **Tags** | A few keywords to help collectors find your work (e.g. `generative`, `p5js`, `abstract`) |
+   | **Editions** | How many copies exist — `1` for a 1/1, or a higher number for an open edition |
+   | **Royalties** | Your secondary-sale cut in percent (e.g. `10` for 10%) |
+
+6. **Review and mint:**
+   - Scroll down and click **"Mint"**.
+   - Your wallet will pop up asking you to confirm the transaction — review the fee and click **"Confirm"** (or **"Sign"**).
+   - Once confirmed, your token will appear on your profile within a few seconds.
 
 ---
 
