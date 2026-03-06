@@ -191,7 +191,7 @@ The bundled file is `js/p5.min.js` (p5.js v1.11.3). To upgrade:
 
 ## Credits
 
-Created by [skllzrmy.tez](https://objkt.com/profile/skllzrmy.tez)
+Created by [skllzrmy](https://objkt.com/@skllzrmy)
 
 If you find this template useful, donations are appreciated:  
 **`tz1Qi77tcJn9foeHHP1QHj6UX1m1vLVLMbuY`** or **`skllzrmy.tez`**
